@@ -1,0 +1,21 @@
+{
+  "actions": [
+    {
+      "name": "MAIN",
+      "description": "postak : Initial state",
+      "fulfillment": {
+        "conversationName": "<your_Conversation_Name>"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN"
+      }
+    }
+  ],
+  "conversations": {
+    "romamobilita": {
+      "name": "<your_Conversation_Name>",
+      "url": "<URL_OF_NODE_SERVER>",
+      "fulfillmentApiVersion": 2
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "hello-action",
+  "description": "Actions SDK sample for Cloud Functions for Firebase",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": ">=9.8.0"
+  },
+  "scripts": {
+    "lint": "eslint --fix \"**/*.js\"",
+    "start": "node index.js",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "actions-on-google": "^1.5.1",
+    "request": "^2.81.0",
+    "body-parser": "^1.5.2",
+    "errorhandler": "^1.1.1",
+    "express": "4.16.3",
+    "joi": "^9.2.0",
+    "locutus": "^2.0.6",
+    "method-override": "^2.1.2",
+    "morgan": "^1.2.2",
+    "npm": "^5.7.1",
+    "pubsub-js": "^1.5.4",
+    "serve-favicon": "^2.0.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
